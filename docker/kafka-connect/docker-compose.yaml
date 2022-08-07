@@ -9,7 +9,7 @@ services:
       - '22181:2181'
       - '23306:3306'
     environment:
-      CONNECT_BOOTSTRAP_SERVERS: "192.168.202.248:9092"
+      CONNECT_BOOTSTRAP_SERVERS: "ip:9092"
       CONNECT_REST_PORT: "8083"
       CONNECT_GROUP_ID: "quickstart"
       CONNECT_CONFIG_STORAGE_TOPIC: "config" 
